@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.top-section {
+  background: linear-gradient(to bottom, #007bff, #00c6ff);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.top-section h1 {
+  margin: 10px 0 5px;
+  font-size: 32px;
+}
+
+.top-section p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.image-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-row img {
+  width: 170px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  background-color: white;
+  width: 600px;
+  height:100%;
+  margin: 20px auto; /* Top center alignment */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, select, .dappa {
+  padding: 12px 10px;
+  width: 90%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 95%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5593d5;
+  height: 40px;
+}
+
+h2, p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+b {
+  align-self: flex-start;
+  margin-left: 5%;
+  margin-top: 5px;
+}

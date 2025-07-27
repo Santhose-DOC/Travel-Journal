@@ -1,0 +1,49 @@
+body, .final-container {
+  background-image: url('../../assets/Images/airbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Serif Text", serif;
+}
+
+header {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 25px;
+}
+
+.gallery-item {
+  width: 450px;
+  height: 975px;
+  border: 3px solid #0b0b0b;
+  background-color: whitesmoke;
+  border-radius: 40px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item p {
+  font-size: 17px;
+  padding: 10px;
+}

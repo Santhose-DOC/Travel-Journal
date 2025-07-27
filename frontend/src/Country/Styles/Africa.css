@@ -1,0 +1,60 @@
+.africa-container {
+  background-image: url('../Images/africa1.jpg');
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-style: oblique;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.box {
+  display: inline-block;
+  height: 970px;
+  width: 600px;
+  margin: 10px;
+  vertical-align: top;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.box img {
+  width: 500px;
+  height: 700px;
+  border-radius: 5px;
+  margin: 25px;
+}
+
+.box p {
+  font-size: 25px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.full-width {
+  height: 970px;
+  width: 600px;
+}
+
+.but {
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #0059ff;
+}
+.center-row {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,52 @@
+.south-america-container {
+  background-image: url('../Images/southamerica.jpg');
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.box {
+  display: inline-block;
+  height: 970px;
+  width: 600px;
+  margin: 10px;
+  vertical-align: top;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  color: #000000;
+}
+
+.box img {
+  width: 500px;
+  height: 700px;
+  border-radius: 5px;
+}
+
+.box p {
+  font-size: 25px;
+  padding: 10px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.full-width {
+  height: 970px;
+  width: 600px;
+}
+
+button {
+  background-color: rgb(68, 68, 255);
+  color: #f8f8f8;
+  padding: 10px;
+  height: 40px;
+}
